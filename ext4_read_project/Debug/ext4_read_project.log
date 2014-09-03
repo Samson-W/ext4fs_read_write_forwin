@@ -1,0 +1,35 @@
+﻿生成启动时间为 2014/9/3 20:29:13。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\backup\ext4_read_project\ext4_read_project\ext4_read_project.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ext4_read_project.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       GenerateTargetFrameworkMonikerAttribute:
+       正在跳过目标“GenerateTargetFrameworkMonikerAttribute”，因为所有输出文件相对于输入文件而言都是最新的。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ext4_read_project.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ext4fs.cpp /clr:nostdlib 
+         ext4fs.cpp
+     1>ext4fs.cpp(423): warning C4244: “参数”: 从“lloff_t”转换到“uint32_t”，可能丢失数据
+     1>ext4fs.cpp(438): warning C4244: “参数”: 从“lloff_t”转换到“uint32_t”，可能丢失数据
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\backup\ext4_read_project\Debug\ext4_read_project.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\ext4_read_project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\backup\ext4_read_project\Debug\ext4_read_project.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\ext4fs.obj
+         Debug\ext4_read.obj
+         Debug\ext4_read_project.obj
+         Debug\platform.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ext4_read_project.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2010\Projects\backup\ext4_read_project\Debug\ext4_read_project.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\backup\ext4_read_project\Debug\ext4_read_project.exe;#1" /manifest Debug\ext4_read_project.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ext4_read_project.unsuccessfulbuild”。
+         正在对“Debug\ext4_read_project.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\backup\ext4_read_project\ext4_read_project\ext4_read_project.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.84
